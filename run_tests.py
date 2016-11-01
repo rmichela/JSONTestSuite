@@ -271,6 +271,11 @@ programs = {
            "url":"",
            "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_jackson_2_8_4/TestJSONParsing.jar")]
        },
+   "Java Juneau 6.0.1":
+       {
+           "url":"",
+           "commands":["/usr/bin/java", "-jar", os.path.join(PARSERS_DIR, "test_java_juneau_6_0_1/TestJSONParsing.jar")]
+       },
    "Java nanojson 1.0":
        {
            "url":"",
